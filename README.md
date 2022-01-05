@@ -1,7 +1,7 @@
-# Getting Started with Express
+# Setting up this app
 Express(Node.js web application framework) was used as the backend for this task
 
-## Starting the server side
+## Setting up the server side
 ### Step One (Create a .env file)
 Inside the root directory in the server folder, please create a .env file at the root directory and copy and paste the following code 
 
@@ -10,7 +10,7 @@ DB_DATABASE="YOUR DATABASE NAME"
 DB_USERNAME="YOUR DATABASE USERNAME"
 DB_PASSWORD= "YOUR DATABASE PASSWORD"
 
-if you want to use a different database (not mysql), you may need to install the appopriate driver (i.e mariadb, sqlite3, tedious etc) Please refer to the documentation, the link is provided below
+if you want to use a different database (not mysql), you may need to install the appopriate driver (i.e mariadb, sqlite3, tedious etc) Please refer to the sequelize documentation
 https://sequelize.org/v7/manual/getting-started.html
 
 ### Step Two (Install dependencies)
