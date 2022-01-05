@@ -24,7 +24,8 @@ https://sequelize.org/v7/manual/getting-started.html
 
 
 ### Step Three (create the database schema, table and seed the data)
-This project uses sequelize cli to manage the database  so to create the database schema, table and seed the dataso in the server folder please run
+This project uses sequelize cli to manage the database  so to create the database schema, table and seed the data,
+in the server folder please run
 
 yarn run db-setup
 
