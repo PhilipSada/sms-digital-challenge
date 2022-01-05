@@ -3,7 +3,7 @@ Express(Node.js web application framework) was used as the backend for this task
 
 ## Setting up the server side
 ### Step One (Create a .env file)
-Inside the root directory in the server folder, please create a .env file at the root directory and copy and paste the following code 
+Inside the root directory in the server folder, please create a .env file and copy and paste the following code 
 
 DB_HOST="localhost"
 DB_DATABASE="YOUR DATABASE NAME"
@@ -18,7 +18,7 @@ In the server folder run
 yarn install
 
 ### Step Three (Database)
-This project uses sequelize to manage the database  so in the server folder run
+This project uses sequelize cli to manage the database  so in the server folder run
 
 yarn run db-setup (This would create the database schema, table and seed the data)
 
