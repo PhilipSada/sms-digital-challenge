@@ -1,0 +1,25 @@
+{
+  "name": "express-server",
+  "main": "app.js",
+  "scripts": {
+    "start": " node app.js",
+    "server": "nodemon app.js",
+    "create-db":"npx sequelize-cli db:create",
+    "make-model":"npx sequelize-cli model:generate --name Information --attributes city:string,start_date:string,end_date:string,price:string,status:string,color:string",
+    "migrate":"npx sequelize-cli db:migrate",
+    "revert-migration":"npx sequelize-cli db:migrate:undo",
+    "make-seed":"npx sequelize-cli seed:generate --name demo-information",
+    "seed":"npx sequelize-cli db:seed:all",
+    "db-setup": "yarn run create-db && yarn run migrate && yarn run seed"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.4",
+    "sequelize-cli": "^6.3.0"
+  }
+}
